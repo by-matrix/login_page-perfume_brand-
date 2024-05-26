@@ -8,13 +8,18 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"/>
     <link rel="stylesheet" href="assets\CSS\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="main">
         <div id="left">
+            <img src="assets\images\img2.png" alt="logo">
+           <div id="content">
             <div id="welcome">
                 <h1>Welcome to CHANEL</h1>
-                <h6>Lorem ipsum dolor sit amet.</h6>
+                <h4>Lorem ipsum dolor sit amet.</h4>
             </div>
             <div id="field">
                 <label for="email">Email</label>
@@ -23,16 +28,22 @@
                 <input type="password" id="password" placeholder="Enter your password">
             </div>
             <div id="extra_field">
-                <input type="checkbox" id="remember">
-                <label for="remember">Remember me</label>
+                <div id="remember">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
                 <p>Forgot Password ?</p>
             </div>
             <div id="login">
-                <button type="button">Log in</button>
+                <button type="button" id="normal">Log in</button>
                 <button type="button"> <i class="ri-google-fill"></i>Login with Google</button>
             </div>
+           </div>
         </div>
         <div id="right">
+            <div id="image">
+                <img src="assets\images\img1.png" alt="img1">
+            </div>
         </div>
     </div>
 </body>

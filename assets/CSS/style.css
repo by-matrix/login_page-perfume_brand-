@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Lato", sans-serif;
+}
+#left {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+#content{
+
+    width: 50%;
+    padding: 1vw;
+
+
+}
+#welcome{
+    margin-bottom: 2.5vw;
+    font-size: 1.2vw;
+}
+#field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5vw;
+}
+#field input{
+    margin-bottom: 0.5vw;
+    font-size: 1.3vw;
+    height: 2.3vw;
+    border: 3px solid #416A93;
+    border-radius: 0.5vw;
+
+}
+#field label{
+    font-weight: 600;
+    margin-bottom: 0.5vw;
+}
+#extra_field{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5vw;
+    font-weight: 600;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    
+}
+#login i{
+    margin-right: 0.5vw;
+
+}
+#login button{
+    margin-bottom: 0.5vw;
+    border-radius: 0.5vw;
+    height: 3vw;
+    font-weight: 600;
+    font-size: 1vw;
+}
+#normal {
+    background-color: #3a6794;
+    color: white;
+
+}
+#right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(219, 128, 16);
+}
+#right img{
+    width: 100%;
+    height: 100%; 
+}
+
+#extra_field p:hover{
+    text-decoration: underline;
+}
+#left img{
+    position: absolute;
+    width: 5vw;
+    top: 4%;
+    left: 4%;
+}
+#footer{
+    display: flex;
+}
