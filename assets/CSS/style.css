@@ -89,7 +89,6 @@ html,body{
     width: 100%;
     height: 100%; 
 }
-
 #extra_field p:hover{
     text-decoration: underline;
 }
